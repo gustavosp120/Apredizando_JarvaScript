@@ -13,17 +13,35 @@
         //    } 
 
         //true || true = true = true "||" se um resultado for true ele sempre vai retonar true
-    //    if (2 == 2 || 3 >= 1 || 'a' == 'b') {
-    //        document.write('Verdadeiro')
-    //   } else {
-    //        document.write('Falso')
-    //    }
+        //    if (2 == 2 || 3 >= 1 || 'a' == 'b') {
+        //        document.write('Verdadeiro')
+        //   } else {
+        //        document.write('Falso')
+        //    }
 
-    //false = false "!" Reverte a condição então se der Falso ela vira verdadeira
-        if(!(4 == 2)){
-            document.write('Verdadeiro')
-        }   else {
-            document.write('Falso')
+        //false = false "!" Reverte a condição então se der Falso ela vira verdadeira
+        //        if(!(4 == 2)){
+        //           document.write('Verdadeiro')
+        //        }   else {
+        //            document.write('Falso')
+        //        }
+
+
+
+        var nota = prompt('Insira a Sua nota!')
+        var faltas = prompt('Quantas Faltas?')
+
+        var media = 7
+        var falta_maximas = 15
+
+
+        if (nota >= media && faltas <= falta_maximas) {
+            document.write('Aprovado')
+
+        }
+
+        else {
+            document.write('Reporvado')
         }
 
 
